@@ -3,6 +3,8 @@ header { text-align: center; }
 #appHeader {
     padding: 5px 0 100px;
     font-size: 16px;
+    border-radius: 10px 10px 0 0;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 #appHeader h1,
@@ -31,7 +33,7 @@ header { text-align: center; }
 }
 
 #appHeaderMenu {
-    padding: 118px 0 30px;
+    padding: 110px 0 15px;
     background: #ff0745;
 }
 
@@ -42,6 +44,8 @@ nav a {
     text-decoration: none;
     border: 2px solid #fff;
     font-size: 16px;
+    display: inline-block;
+    margin: 2px 5px;
 }
 
 nav a:hover {
